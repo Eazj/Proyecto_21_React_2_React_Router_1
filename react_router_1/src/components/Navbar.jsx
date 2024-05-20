@@ -1,7 +1,15 @@
+import { Link } from "react-router-dom";
+
 function Navbar(){
     return(
         <>
-        <h1>Soy el Componente Navbar</h1>
+    <nav>
+        <div>
+        <Link to="/home">Home</Link>
+        <Link to="/contact">Contacto</Link>
+        </div>
+        <p>Happy Cake</p>
+    </nav>
         </>
     )
 }
