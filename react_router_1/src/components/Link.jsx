@@ -1,8 +1,13 @@
-function Link(){
-    return(
+import { Link } from "react-router-dom";
+
+function Links() {
+    return (
         <>
-        <h1>Soy el Componente Link</h1>
+            <div className="div_links">
+                <Link to="/">Home 🏠</Link>
+                <Link to="/contact">Contacto 📒</Link>
+            </div>
         </>
     )
 }
-export default Link;
+export default Links;

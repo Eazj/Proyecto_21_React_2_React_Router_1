@@ -8,7 +8,7 @@ import { Route,Routes } from 'react-router-dom';
 function App() {
   return (
     <>
-    <div>
+    <div className='div_app_jsx '>
     <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>} />

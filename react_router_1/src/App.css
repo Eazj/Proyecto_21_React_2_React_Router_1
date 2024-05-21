@@ -1,42 +1,57 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.div_app_jsx{
+  height: 100vh;
+  width: 100vw;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.div_navbar{
+  display: flex;
+  max-width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  background-color: palevioletred;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.div_navbar p{
+  margin-right: 2rem;
+  color: white;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.div_links{
+  display: flex;
+  gap: 1rem;
+  margin-left: 2vw;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div_main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.imagen-pastel{
+  height: 50vh;
 }
-
-.card {
-  padding: 2em;
+.tittle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.read-the-docs {
-  color: #888;
+.form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.textArea{
+  height: 20vh;
+  width: 50vw;
+  border-radius: 2rem;
+}
+.inputs{
+  border-radius: 2rem;
+  height: 1hv;
+  width: 10vw;
+}
+.inputs:focus{
+  border-color: palevioletred;
+  outline: none;
+}
+.textArea:focus{
+  border-color: palevioletred;
+  outline: none;
 }
